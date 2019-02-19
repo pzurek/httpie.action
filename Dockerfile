@@ -18,6 +18,7 @@ COPY "config.json" /.httpie/
 
 RUN apt-get update -y && \
   apt-get install -y --no-install-recommends jq && \
+  apt-get install -y --no-install-recommends git && \
   rm -rf /var/lib/apt/lists/* && \
   pip install --upgrade pip && \
   pip install --upgrade pipenv && \
