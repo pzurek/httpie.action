@@ -9,3 +9,4 @@ httpie-api-auth = "*"
 httpie-aws-auth = "*"
 httpie-hmac-auth = "*"
 httpie-jwt-auth = "*"
+auth-token = {git = "https://github.com/satterly/httpie-token-auth.git"}

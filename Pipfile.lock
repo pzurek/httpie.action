@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d8d9cbfa54285d77b1dc96da89c51dfcd898c644fc15df6afda974b6bae5c583"
+            "sha256": "d25ad971ba9297a59352c0d7f5b39097d165607682c5756ad48664582efb5c07"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -14,6 +14,10 @@
         ]
     },
     "default": {
+        "auth-token": {
+            "git": "https://github.com/satterly/httpie-token-auth.git",
+            "ref": "2735b8931bc73b211c1a10d71e5f999353f9457f"
+        },
         "certifi": {
             "hashes": [
                 "sha256:47f9c83ef4c0c621eaef743f133f09fa8a74a9b75f037e8624f83bd1b6626cb7",
